@@ -1,3 +1,4 @@
+/* 共通のスタイル */
 body {
   font-family: Arial, sans-serif;
   margin: 0;
@@ -83,4 +84,36 @@ footer {
   padding: 20px;
   text-align: center;
   color: #fff;
+}
+
+/* スマートフォン表示用のスタイル */
+@media screen and (max-width: 768px) {
+  section.hero h1 {
+    font-size: 24px;
+    margin-bottom: 10px;
+  }
+
+  section.hero p {
+    font-size: 16px;
+    margin-bottom: 20px;
+  }
+
+  section.hero .btn {
+    padding: 10px 20px;
+  }
+
+  section.services {
+    padding: 30px 0;
+  }
+
+  .service {
+    width: 100%;
+    margin: 10px 0;
+  }
+
+  .service img {
+    width: 100px;
+    height: 100px;
+    margin-bottom: 5px;
+  }
 }
